@@ -1,0 +1,29 @@
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+#include <string>
+
+
+
+
+int mySqrtBetter(int x)
+{
+    int Kyle = sqrt(x);
+    
+    //std::cout << sqrt(x) << std::endl;
+
+
+
+    return Kyle;
+}
+
+int main()
+{
+    int Number = 1;
+
+    std::cin >> Number;
+
+    //mySqrtBetter(Number);
+
+    std::cout << mySqrtBetter(Number) << std::endl;
+}
